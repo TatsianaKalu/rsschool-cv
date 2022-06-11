@@ -3,7 +3,7 @@ Junior Frontend developer
 ## My Contacts
 
 - Location: Gomel, Belarus
-- LinkedIn: [Татьяна Калюжная](www.linkedin.com/in/татьяна-калюжная-082115215)
+- LinkedIn: [linkedin.com/in/татьяна-калюжная-082115215]()
 - e-mail: [serafima2424@gmail.com]()
 
 
