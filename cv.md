@@ -11,7 +11,7 @@ Junior Frontend developer
 
 I'm a beginner front-end developer. My goal is to become high-level professional and qualified specialist. 
 
-I consider my strengths to be non-conflict, stress resistance, patience, as well as a great desire to develop and not stand still. 
+I am a sociable, calm person, looking for opportunities for growth and self-development.
 
 ## Code Example
 
