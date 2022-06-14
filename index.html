@@ -1,12 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
-<h1>Hello world</h1>
+    <div class="wrapper">
+        <header class="header">
+           <div class="container">
+               <div class="header__body">
+                   <p class="logo">TATSIANA KALIUZHNAYA</p>                                
+                 
+                   <nav class="header__menu">
+                       <ul class="header__list">
+                           <li><a href="#contacts" class="menu__link">CONTACTS</a></li>
+                           <li><a href="#education" class="menu__link">EDUCATION</a></li>
+                           <li><a href="#about" class="menu__link">ABOUT</a></li>
+                           <li><a href="#skills" class="menu__link">SKILLS</a></li>
+                           <li><a href="#experience" class="menu__link">EXPERIENCE</a></li>
+                           <li><a href="#code" class="menu__link">CODE EXAMPLE</a></li>
+                           <li><a href="#languages" class="menu__link">LANGUAGES</a></li>                                
+                       </ul>
+                     
+                   </nav>
+               </div>   
+           </div>
+                   
+       </header>
+
+       <main>
+           
+           <div class="content container">
+           
+               <div class="content__foto">
+                   <img src="./assets/IMG_56161.jpg" alt="avatar">
+               </div>
+               <div class="content__text">
+                   <h1>Hello! <br> I'm Junior Front-End developer</h1>
+               </div>
+           
+           </div>
+
+           <section class="content__contacts container">
+
+               <h2 id="contacts"> MY CONTACTS </h2>
+
+               <ul class="contacts_list">
+                   <li class="contacts_item">Location: Gomel</li>
+                   <li class="contacts_item"> Telegram: <a href="https://t.me/Tatsianakalu">Tatsianakalu</a> </li>
+                   <li class="contacts_item"> Linkedin: <a href="www.linkedin.com/in/татьяна-калюжная-082115215"> www.linkedin.com/in/татьяна-калюжная-082115215 </a> </li>
+                   <li class="contacts_item"> Email: <a href="mailto:serafima2424@gmail.com">serafima2424@gmail.com</a></li>
+                                      
+               </ul>
+
+           </section>
+
+
+           <section class="content__education container">
+
+               <h2 id="education">EDUCATION</h2>
+
+               <ol class="education_list">
+                   <li class="education_item">University: Belorusian State University of Transport. Faculty of Transport Economics.</li>
+                   <li class="education_item">Computer Academy STEP (2020-2021). Front-End Development.</li>
+               </ol>
+           
+           </section>
+
+           <section class="content__about container"> 
+               <h2 id="about">ABOUT ME</h2>
+
+               <p class="content_about-text"> I'm a beginner front-end developer. My goal is to become high-level professional and qualified specialist. 
+
+                   I consider my strengths to be non-conflict, stress resistance, patience, as well as a great desire to develop and not stand still. I also like to work together as a team. </p>
+
+           </section>
+
+           <section class="content__skills container">
+               <h2 id="skills">SKILLS</h2>
+
+               <ul class="skills_list">
+                   <li class="skills_item">HTML</li>
+                   <li class="skills_item">CSS</li>
+                   <li class="skills_item">JavaScript</li>
+                   <li class="skills_item">React </li>
+                   <li class="skills_item">Adobe Photoshop/Figma</li>
+                   <li class="skills_item">Git</li>
+                   <li class="skills_item">Angular</li>
+               </ul>
+
+
+           </section>
+
+           <section class="content__experience container">
+
+               <h2 id="experience">EXPERIENCE</h2>
+               <p> I worked as a senior clerk and for a time as an accountant in the in the Department of Internal Affairs.
+                   <br> While working, I wanted to get more knowledge in modern technologies and I was trained at the STEP Computer Academy.</p>
+
+           </section>
+
+           <section class="content__code container">
+
+               <h2 id="code">CODE EXAMPLE</h2> <br>
+                               
+               <pre>
+                   <code>
+                       function lovefunc(flower1, flower2) {
+       
+                           if ( flower1%2 === 0 && flower2%2 !== 0 || 
+                               flower1%2 !== 0 && flower2%2 === 0 ) {
+                               return true;
+                           } else { 
+                               return false;
+                           }
+                       }
+                   
+                       console.log(lovefunc(22, 6)); //false
+                   </code>
+               </pre>
+
+               <h3>MY PROJECT</h3>
+
+                <div><a href="https://github.com/TatsianaKalu/-website-layout-.git">Layout</a></div>
+                <div><a href="https://github.com/TatsianaKalu/treasure_game.git">Game</a></div>
+
+           
+           </section>
+
+           <section class="content__languages container">
+
+               <h2 id="languages">LANGUAGES</h2>
+               <ul class="languages-list">
+                   <li class="languages-item">Russian (Native)</li>
+                   <li class="languages-item">English A2</li>
+                   <li class="languages-item">German A1</li>
+               </ul>
+
+           </section>
+       </main>
+
+       <footer class="footer">
+
+           <div class="footer__content container">
+               
+                   <div class="footer-item"><a href="https://github.com/TatsianaKalu"><img class="footer_img-git" src="assets/github-icon.svg" alt="logo-git"></a></div>
+                   <div class="footer-item"><p class="footer-item_year">2022</p></div>
+                   <div class="footer-item"><a href="https://rs.school/js/"><img class="footer_img-rs" src="assets/rs_school_js.svg" alt="logo-rs-school"></a></div>
+              
+           </div>
+
+       </footer>
+   </div>
+
+
 </body>
 </html>
