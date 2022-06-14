@@ -72,7 +72,7 @@ h2 {
 
 .menu__link {
 
-    color:lawngreen;
+    color:rgb(188, 234, 142);
     text-decoration: none;
     font-size: 18px;
     margin: 0 0 0 20px;
@@ -81,8 +81,7 @@ h2 {
 
 .menu__link:hover {
     content: "";
-    border-bottom: 3px solid lawngreen;
-    border-radius: 10%;
+    border-bottom: 3px solid rgb(188, 234, 142);
     padding-bottom: 10px;
     
 }
@@ -128,7 +127,7 @@ h2 {
 
 
 .footer {
-    background-color: lawngreen;
+    background-color: rgb(152, 205, 98);
 }
 
 .footer_img-git {
